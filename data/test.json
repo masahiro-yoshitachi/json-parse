@@ -1,0 +1,39 @@
+{
+    "took": 1,
+    "timed_out": false,
+    "_shards":{
+        "total" : 1,
+        "successful" : 1,
+        "failed" : 0
+    },
+    "hits":{
+        "total" : 2,
+        "max_score": 1.3862944,
+        "hits" : [
+            {
+                "_index" : "twitter",
+                "_type" : "tweet",
+                "_id" : "0",
+                "_score": 1.3862944,
+                "_source" : {
+                    "user" : "kimchy",
+                    "message": "trying out Elasticsearch",
+                    "date" : "2009-11-15T14:12:12",
+                    "likes" : 0
+                }
+            },
+            {
+                "_index" : "facebook",
+                "_type" : "comment",
+                "_id" : "1",
+                "_score": 2.3213183,
+                "_source" : {
+                    "user" : "mikky",
+                    "message": "trying out Elasticsearch",
+                    "date" : "2012-12-27T19:16:24",
+                    "likes" : 100
+                }
+            }
+        ]
+    }
+}
