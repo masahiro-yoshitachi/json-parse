@@ -27,4 +27,4 @@ $ go run jason.go
 ```
 
 ### reference
-- http://web-technical.hatenablog.com
+- http://web-technical.hatenablog.com/entry/2018/02/23/152023
