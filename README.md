@@ -25,3 +25,6 @@ $ go run interface.go
 ```
 $ go run jason.go
 ```
+
+### reference
+- http://web-technical.hatenablog.com
